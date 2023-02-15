@@ -10,8 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
+}
 
 /* main */
 .primeira_parte-subtitulo {
@@ -42,7 +42,8 @@
 }
 
 .parte-botao {
-    width: 780px;
+    max-width: 780px;
+    min-width: 320px;
     margin:20px 0 40px;
 }
 
@@ -56,7 +57,8 @@
 }
 
 .segunda_parte{
-    width: 780px;
+    max-width: 780px;
+    min-width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,8 +104,8 @@
 }
 
 .quarta_parte{
-    width: 780px;
-
+    max-width: 780px;
+    min-width: 320px;
     display: flex;
     flex-direction: column;
 }
@@ -131,7 +133,8 @@
 
 .quinta_parte-container {
     background-color: var( --bloco-quinta-parte);
-    width: 780px;
+    max-width: 780px;
+    min-width: 320px;
     margin-top:30px;
 }
 
@@ -158,7 +161,8 @@
 
 .rodape {
     color: var(--branco);
-    width: 780px;
+    max-width: 780px;
+    min-width: 320px;
     padding: 20px 0px ;
 }
 
@@ -211,9 +215,14 @@
     .cabecalho_logo {
         padding: 20px;
     }
-
+    .cabecalho_image img {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
     .input_opcoes {
-        width: 40%;
+        width: 100%;
     }
 }
 
